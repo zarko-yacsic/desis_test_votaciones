@@ -1,0 +1,144 @@
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background: #ffffff;
+    margin: 0;
+}
+
+h1 {
+    font-size: 28px;
+    background-color: #00579e;
+    color: #ffffff;
+    padding: 10px 10px 10px 20px;
+    margin: 0px 20px 20px 20px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 0 20px 20px 20px;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #cccccc;
+}
+
+.contenedor {
+    width: 1100px;
+    margin: 20px auto;
+}
+
+.seccion {
+    margin-bottom: 20px;
+}
+
+.secc_formulario {
+    width: 65%;
+    float: left;
+    margin-right: 20px;
+}
+
+.secc_resultados {
+    width: 30%;
+    float: left;
+    margin-right: 0px;
+}
+
+.form_fila {
+    margin: 0px 20px 10px 20px;
+    height:35px;
+}
+
+.form_columna_L {
+    width: 38%;
+    float: left;
+}
+
+.form_columna_R {
+    width: 60%;
+    float: left;
+}
+
+.form_columna_L label {
+    text-align: right;
+    padding: 3px;
+    display: block;
+    margin-right: 10px;
+}
+
+.form_columna_R label {
+    display: inline;
+    margin-right: 20px;
+}
+
+.form_columna_R label:last-of-type {
+    margin-right: 0px;
+}
+
+.form_contenedor input[type="text"], 
+.form_contenedor select {
+    padding: 5px;
+}
+
+.form_contenedor input[type="text"] {
+    width: 95%;
+}
+
+.form_contenedor select {
+    width: 98%;
+}
+
+#btn_enviar {
+    background-color: #00579e;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 250px;
+}
+
+#btn_enviar:active {
+    background-color: #00579e;
+}
+
+#btn_enviar:hover {
+    background-color: #333333;
+}
+
+label, input, select {
+    font-size: 16px;
+}
+
+#listado_votacion table {
+    width: 100%;
+}
+
+#listado_votacion table thead {
+    padding: 5px;
+    background-color: #00579e;
+}
+
+#listado_votacion table thead tr th {
+    padding: 5px 5px 5px 8px;
+    color: #ffffff;
+    text-align: left;
+}
+
+#listado_votacion table tbody tr td {
+    padding: 5px 5px 5px 8px;
+    border-bottom: 1px dotted #666666;
+    text-align: left;
+}
+
+.texto_centro {
+    text-align: center !important;
+}
+
+i.fa-sync {
+    font-size: 45px;
+    color: #999999;
+}

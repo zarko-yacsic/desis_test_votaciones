@@ -1,0 +1,66 @@
+
+
+TEST EVALUACIÓN DESIS LTDA.
+(SISTEMA PARA REGISTRAR VOTACIONES)
+
+Información postulante:
+	Nombre : ZARKO YACSIC ORTIZ
+	RUT : 13.046.004-6
+	Email : zarko.yacsic@gmail.com
+	Fono : +569 4180 4712
+
+
+- INSTRUCCIONES DE INSTALACIÓN -
+
+
+1). Descargar XAMPP : https://www.apachefriends.org/es/download.html
+	
+	- La versión de PHP que se instalará es la 8.2.4
+	- MySql lo provee un servidor MaríaDB, cuya versión es la 10.4.28
+
+2). Iniciar la aplicación 'XAMPP Control Panel' e iniciar los servicios 'Apache' y 'MySql'
+
+3). Para administrar la base de datos mediante PhpMyadmin, ir a la URL :
+	http://localhost/phpmyadmin
+
+4). Desde PhpMyAdmin, se debe crear una nueva base de datos con el nombre 'db_votaciones'
+
+5). A continuación, se debe ir a la opción 'Importar', y seleccionar el archivo 'db_votaciones.sql', el cual está ubicado en la carpeta 'sql' del directorio raíz del proyecto. Esto creará la estructura para las siguientes tablas:
+
+	- vtc_candidatos
+	- vtc_comunas
+	- vtc_provincias
+	- vtc_regiones
+	- vtc_votaciones
+	- vtc_votantes
+
+6). La misma operación de importación, también se encargará de volcar los datos correspondientes en las siguientes tablas:
+
+	- vtc_candidatos
+	- vtc_comunas
+	- vtc_provincias
+	- vtc_regiones
+
+	...Las demás tablas estarán inicialmente vacías y son las que desde ahora, comenzarán a guardar los datos guardados por la aplicación.
+
+
+7). La aplicación estará disponible en la siguiente URL :
+	http://localhost/desis_test_votaciones 
+
+
+8). Como un extra de mi parte, agregué al costado del formulario de votación, un listado de los candidatos y su votación en orden descendente. Es un listado que inicialmente cargará la información guardada, y además se actualizará de forma asíncrona, cada vez que se ingrese una nueva votación.
+
+
+Saludos, y cualquier comentario quedo atento!
+
+------
+
+
+
+
+
+
+
+
+
+

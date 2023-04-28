@@ -1,0 +1,8 @@
+
+/* ...Fix para iconos en mensajes Ajertify.JS...  */
+
+.alertify-notifier.ajs-bottom .ajs-message.ajs-visible > i.mdi { font-size: 36px !important;}
+.alertify-notifier.ajs-bottom .ajs-message.ajs-visible > i.mdi-check-bold { color: #FFFFFF;}
+.alertify-notifier.ajs-bottom .ajs-message.ajs-visible > i.mdi-alert-outline { color: #999700;}
+.alertify-notifier.ajs-bottom .ajs-message.ajs-visible > i.mdi-close-thick { color: #FFFFFF;}
+.alertify-notifier.ajs-bottom .ajs-message.ajs-visible > i.mdi-message-outline { color: #a9a9d1;}
